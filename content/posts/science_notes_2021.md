@@ -1,12 +1,16 @@
 ---
 title: "Science Notes"
 date: 2022-01-31T15:58:36+08:00
+lastmod: 2022-01-31T15:58:36+08:00
 draft: false
-categories: [Education]
+
+summary: "My Science Notes for a 2021 Class test"
+
 tags: [Science]
+categories: [Education]
 ---
 
-# Science Test
+# Science Test Notes 
 
 `GLHF`
 

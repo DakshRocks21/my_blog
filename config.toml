@@ -18,14 +18,14 @@ theme = "LoveIt"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/DakshRocks21/dakshrocks21.github.io"
+  gitRepo = "https://github.com/DakshRocks21/my_blog"
   #  which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   #  date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["https://avatars.githubusercontent.com/DakshRocks21"]
 
   #  App icon config
   [params.app]
@@ -154,7 +154,7 @@ theme = "LoveIt"
     GitHub = "DakshRocks21"
     Linkedin = ""
     Twitter = "DakshRocks21"
-    Instagram = "dthapar07"
+    Instagram = ""
     Facebook = ""
     Telegram = "DakshRocks21"
     Medium = ""
@@ -236,12 +236,14 @@ theme = "LoveIt"
     linkToMarkdown = true
     #  whether to show the full text content in RSS
     rssFullText = false
+    # Using Git info for last mod 
+    enableGitInfo = true
     #  Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
       enable = true
       #  whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     #  KaTeX mathematical formulas
